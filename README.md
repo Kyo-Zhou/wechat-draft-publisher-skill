@@ -4,6 +4,8 @@ An open-source skill for configurable WeChat Official Account draft publishing.
 
 一个面向公众号发布执行层的开源 skill，用来把 Markdown 草稿转换成微信可用 HTML、生成预览、套模板、上传封面并创建草稿。
 
+[Workflow Overview](https://github.com/Kyo-Zhou/wechat-official-account-workflow) | [Editorial Pair Repo](https://github.com/Kyo-Zhou/wechat-account-operator-skill)
+
 This skill focuses on the execution side of the workflow:
 
 - convert Markdown into WeChat-ready HTML
@@ -122,6 +124,13 @@ Do not commit these:
 5. validate body cleanliness and metadata
 6. upload cover if needed
 7. create draft only on explicit request
+
+## Roadmap
+
+- add real template implementation samples
+- add a clearer config profile convention
+- add an adapter example for `md2wechat`
+- add a sample local preview generator
 
 ## Pairing
 
