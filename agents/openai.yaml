@@ -1,0 +1,7 @@
+interface:
+  display_name: "WeChat Draft Publisher"
+  short_description: "Convert Markdown and create configurable WeChat drafts"
+  default_prompt: "Use $wechat-draft-publisher to turn this article into WeChat HTML, generate a preview, and prepare a configurable draft-box upload."
+
+policy:
+  allow_implicit_invocation: true

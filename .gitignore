@@ -1,0 +1,16 @@
+# Local credentials and profiles
+config.local.yaml
+config.yaml
+.env
+.env.local
+
+# Generated outputs
+output/
+dist/
+build/
+preview/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+*.log

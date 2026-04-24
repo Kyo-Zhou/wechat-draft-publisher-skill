@@ -1,0 +1,14 @@
+wechat:
+  appid: "your_appid"
+  appsecret: "your_appsecret"
+
+defaults:
+  author: "Your Account Name"
+  digest_mode: "manual"
+  template: "editorial"
+  need_open_comment: true
+  only_fans_can_comment: false
+
+output:
+  preview_dir: "./output"
+  draft_payload_dir: "./output"
